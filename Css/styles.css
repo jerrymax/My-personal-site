@@ -190,8 +190,9 @@ a:hover{
     text-decoration: none;
   }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:1028px) {
   /* For mobile phones: */
-  .top-container, .top-container, .bottom-container {
+  .top-container, .middle-container, .bottom-container {
     width: 100%;
+     text-align:center;
   }
