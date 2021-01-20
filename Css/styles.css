@@ -262,7 +262,7 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   
  .intro{
-   width:30%;
+   width:100%;
 }
   
 }
