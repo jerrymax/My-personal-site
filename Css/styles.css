@@ -27,7 +27,7 @@ body {
  h3 {
      color:#fc5185;
      font-family: 'Montserrat', sans-serif;
-     text-align: justify;
+     
  }
  
  p{
@@ -167,6 +167,10 @@ body {
  
  .home{
      color:#ff2e63;
+ }
+ 
+ .notification{
+     text-align:center;
  }
  
  
