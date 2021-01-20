@@ -230,6 +230,12 @@ body {
  
  
  @media (max-width: 600px) { body {font-size:1rem;}
+      .skill-row{
+     width:50%;
+     margin:100px auto 100px auto;
+     text-align: justify;
+     line-height: 1;
+     }
 
 } 
  
