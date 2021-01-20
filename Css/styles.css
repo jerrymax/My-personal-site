@@ -197,19 +197,15 @@ a:hover{
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-    body{width:100%;}
-   .menu{width:100%;}
-    .top-container { width:100%; }
-     .middle-container { width:100%; }
-    .bottom-container { width:100%; }
+    .top-container { width:60%; }
+     .middle-container { width:60%; }
+    .bottom-container { width:60%; }
    
   
 }
 
 /* Media Queries: Tabled Portrait */
-@media screen and (max-width: 600px) {
-   body{width:100%;}
-   .menu{width:100%;}
+@media screen and (max-width: 800px) {
    .top-container { width:100%; }
      .middle-container { width:100%; }
     .bottom-container { width:100%; }
@@ -220,6 +216,7 @@ a:hover{
     img[data-src-600px] {
         content: attr(data-src-600px, url); 
     }
+   
    
  
 }
