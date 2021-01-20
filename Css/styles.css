@@ -49,6 +49,7 @@ a{
     text-decoration:none;
 }
 
+html { font-size:100%; }
 
 a:hover{
     color:#EAF6F6;
@@ -209,11 +210,6 @@ a:hover{
     }
 }
 
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
-}
 
 @media (min-width: 640px) { body {font-size:1rem;} } 
 
