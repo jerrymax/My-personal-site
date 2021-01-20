@@ -43,6 +43,8 @@ hr{
     margin: 100px auto;
 }
 
+img { max-width: 100%; height: auto; }
+
 a{
     color:#ffb6b9;
     font-family: 'Montserrat', sans-serif;
@@ -195,21 +197,33 @@ a:hover{
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-    .skills { width:100%; }
+    body{width:100%;}
+   .menu{width:100%;}
+    .top-container { width:100%; }
+     .middle-container { width:100%; }
+    .bottom-container { width:100%; }
    }
   
 }
 
 /* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-    .skills { width:100%; }
+@media screen and (max-width: 1060px) {
+   body{width:100%;}
+   .menu{width:100%;}
+   .top-container { width:100%; }
+     .middle-container { width:100%; }
+    .bottom-container { width:100%; }
    }
 }
 
 @media (min-device-width:600px) {
     img[data-src-600px] {
-        content: attr(data-src-600px, url);
+        content: attr(data-src-600px, url); 
     }
+   
+   .code-image{width:100%;}
+   .comm-image{width:100%;}
+   .attitude-image{width:100%;}
 }
 
 
