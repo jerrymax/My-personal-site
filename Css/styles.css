@@ -202,40 +202,84 @@ body {
      text-decoration: none;
    }
  
- /* Media Queries: Tablet Landscape */
- @media screen and (max-width: 1060px) {
-     .top-container { width:100%; }
-      .middle-container { width:100%; }
-     .bottom-container { width:100%; }
-    
-   
- }
  
- /* Media Queries: Tabled Portrait */
- @media screen and (max-width: 600px) {
-    .top-container { width:100%; }
-      .middle-container { width:100%; }
-     .bottom-container { width:100%; }
-    
- }
- 
- @media (min-device-width:900px) {
-     img[data-src-800px] {
-         content: attr(data-src-600px, url); 
-     }
-    
-    
-  
- }
- 
- 
- @media (max-width: 600px) { body {font-size:1rem;}
-      .skill-row{
-     width:50%;
-     margin:100px auto 100px auto;
-     text-align: justify;
-     line-height: 1;
-     }
 
-} 
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .top-container { width:100%; }
+      .middle-container { width:100%; }
+     .bottom-container { width:100%; }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+.top-container { width:100%; }
+      .middle-container { width:100%; }
+     .bottom-container { width:100%; }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+.top-container { width:100%; }
+      .middle-container { width:100%; }
+     .bottom-container { width:100%; }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ .top-container { width:100%; }
+      .middle-container { width:100%; }
+     .bottom-container { width:100%; }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+.top-container { width:100%; }
+      .middle-container { width:100%; }
+     .bottom-container { width:100%; }
+    { body {font-size:1rem;}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.top-container { width:100%; }
+      .middle-container { width:100%; }
+     .bottom-container { width:100%; }
+    { body {font-size:1rem;}
+  
+}
  
