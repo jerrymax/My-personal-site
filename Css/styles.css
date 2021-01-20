@@ -3,6 +3,7 @@ body {
     margin: 0;
     text-align: center; 
     font-family: 'Merriweather', serif;  
+    font-size:14px;
  }
  
  h1 {
@@ -30,14 +31,7 @@ body {
      
  }
  
- p{
-     line-height:1.5rem;
-
-
-
-     
  
- }
  
  hr{
      border: dotted #EAF6F6 6px;
@@ -56,6 +50,7 @@ body {
  }
  
  html { font-size:100%; }
+
  
  a:hover{
      color:#EAF6F6;
@@ -64,8 +59,8 @@ body {
  .skill-row{
      width:50%;
      margin:100px auto 100px auto;
-     text-align: justify;
-     line-height: 1;
+     text-align: left;
+    
      }
  
  
@@ -172,6 +167,12 @@ body {
  .notification{
      text-align:center;
  }
+
+
+ .skills{
+    font-size: 14px;
+    line-height: 2;
+ }
  
  
  .btn {
@@ -210,7 +211,8 @@ body {
 */
 
 @media (min-width: 1281px) {
-
+  
+  
   
 }
 
@@ -233,6 +235,7 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   
 
+}
 
 /* 
   ##Device = Tablets, Ipads (landscape)
@@ -240,7 +243,6 @@ body {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
 
   
 }
@@ -252,6 +254,7 @@ body {
 
 @media (min-width: 481px) and (max-width: 767px) {
 
+  
 }
 
 /* 
@@ -260,10 +263,11 @@ body {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
- .intro{
+    
+ body{
    width:100%;
 }
   
+
+  
 }
- 
