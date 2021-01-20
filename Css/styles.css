@@ -59,7 +59,7 @@ a:hover{
 }
 
 .skill-row{
-    width:40%;
+    width:50%;
     margin:100px auto 100px auto;
     text-align: left;
     line-height: 1;
@@ -111,14 +111,14 @@ a:hover{
 .code-image{
     width: 30%;
     float:left;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 
 .comm-image{
     width: 30%;
     float:right;
-    margin-left: 30px;
+    margin-left: 60px;
     border-radius:18px;
 
 }
@@ -127,7 +127,7 @@ a:hover{
 .thinking-image{
     width: 30%;
     float:left;
-    margin-right: 30px;
+    margin-right: 60px;
     border-radius:18px;
 
 }
@@ -135,7 +135,7 @@ a:hover{
 .attitude-image{
     width:30%;
     float:right;
-    margin-left: 30px;
+    margin-left: 60px;
     border-radius:18px;
 }
 
