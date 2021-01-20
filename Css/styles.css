@@ -109,33 +109,33 @@ a:hover{
 
 
 .code-image{
-    width: 40%;
+    width: 30%;
     float:left;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 
 .comm-image{
-    width: 40%;
+    width: 30%;
     float:right;
-    margin-left: 40px;
+    margin-left: 30px;
     border-radius:18px;
 
 }
 
 
 .thinking-image{
-    width: 40%;
+    width: 30%;
     float:left;
-    margin-right: 40px;
+    margin-right: 30px;
     border-radius:18px;
 
 }
 
 .attitude-image{
-    width:40%;
+    width:30%;
     float:right;
-    margin-left: 40px;
+    margin-left: 30px;
     border-radius:18px;
 }
 
@@ -212,8 +212,8 @@ a:hover{
    
 }
 
-@media (min-device-width:600px) {
-    img[data-src-600px] {
+@media (min-device-width:800px) {
+    img[data-src-800px] {
         content: attr(data-src-600px, url); 
     }
    
@@ -222,10 +222,8 @@ a:hover{
 }
 
 
-@media (max-width: 640px) { body {font-size:1rem;}
-text-align:center;} 
-@media (max-width:960px) { body {font-size:1.2rem;} } 
-@media (max-width:1100px) { body {font-size:1.5rem;} }
+@media (max-width: 640px) { body {font-size:1rem;} 
+
 
 
 
