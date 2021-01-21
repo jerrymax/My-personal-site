@@ -57,9 +57,9 @@ body {
  }
 
  .skill-row{
-     width:50%;
+     width:60%;
      margin:100px auto 100px auto;
-     text-align: left;
+     text-align:left;
      font-size: 14px;
     line-height: 2;
     
@@ -111,14 +111,14 @@ body {
  .code-image{
      width: 30%;
      float:left;
-     margin-right: 30px;
+     margin-right: 40px;
  }
  
  
  .comm-image{
      width: 30%;
      float:right;
-     margin-left: 30px;
+     margin-left: 40px;
      border-radius:18px;
  
  }
@@ -141,7 +141,7 @@ body {
  
  .my-skills{
      background-color: #fae3d9;
-     width:25%;
+     width:35%;
      margin:auto;
      border-radius:30px;
  }
@@ -264,53 +264,45 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
    .skill-row{
-       
-       width:70%;
-       margin:100px auto 100px auto;
-       text-align: left;
-       font-size: 14px;
-      line-height: 2;
+       display:inline-flex;
+        font-size:10;
+        width:60%;
+        margin:auto;
+        flex-direction: column;
+        margin:auto;
+        margin-top:40px;
+        flex-wrap: row wrap;
+    
    }
 
- body{
- font-size:14px;
+
+
+  
+
+   .code-image{
+       margin-left:0;
+       width:50%;
+      
+   }
+
+   .comm-image{
+    margin-left:0;
+    width:50%;
+   
+   }
+
+   .attitude-image{
+    margin-left:0;
+    width:50%;
+   
 }
-
-.code-image{
-    width: 40%;
-    float:none;
- 
-}
-
-
-.comm-image{
-    width: 40%;
-    float:none;
-
-
-}
-
-
+   
 .thinking-image{
-    width: 40%;
-    float:none;
-  
-
-}
-
-.attitude-image{
-    width:40%;
-    float:none;
+    margin-left:0;
+    width:50%;
    
 }
 
-.contact-message{
-    width:70%;
-    margin-top: 40px; 
-    margin-bottom:60px;
-   
-}
-  
 
-  
-}
+
+   }
