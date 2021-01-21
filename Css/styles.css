@@ -303,6 +303,21 @@ body {
    
 }
 
+.my-skills{
+    background-color: #fae3d9;
+    width:35%;
+    margin:auto;
+    border-radius:30px;
+}
+
+
+.menu ul{
+    list-style-type: none;
+    padding-left: 0;
+    position:absolute;
+    right:100px;
+    top:50px;
+}
 
 
    }
