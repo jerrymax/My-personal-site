@@ -336,24 +336,20 @@ body {
         width:40%;
         margin-left:auto;
         margin-right:auto;
+              text-align:center;
+        
+        
  }
     
     h1{
          margin-left:auto;
         margin-right:auto;
          width:50%;
+        text-align:center;
         
     }
     
-     
- .top-container {
-     background-color:#ffc7c7;
-     position: relative;
-     padding-top: 70px;
-     padding-bottom:170px;
-    margin-left:auto;
-        margin-right:auto;
- }
+
     .intro{
         width:70%;
          margin-left:auto;
