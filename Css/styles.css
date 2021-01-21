@@ -253,7 +253,99 @@ body {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .skill-row{
+       display:inline-flex;
+        font-size:10;
+        width:80%;
+        margin-left:auto;
+        flex-direction: column;
+        margin-right:auto;
+        margin-top:40px;
+        flex-wrap: row wrap;
+    
+   }
 
+
+
+  
+
+   .code-image{
+       margin-left:0;
+       width:50%;
+      
+   }
+
+   .comm-image{
+    margin-left:0;
+    width:50%;
+   
+   }
+
+   .attitude-image{
+    margin-left:0;
+    width:50%;
+   
+}
+   
+.thinking-image{
+    margin-left:0;
+    width:50%;
+   
+}
+
+.my-skills{
+    background-color: #fae3d9;
+    width:35%;
+    margin:auto;
+    border-radius:30px;
+}
+
+
+.menu ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 5px;
+    position:absolute;
+    right:5px;
+    top:50px;
+}
+    
+     .contact-message{
+     width:70%;
+     margin: 40px auto 60px; 
+ }
+
+    h2 {
+     
+     color:#ff2e63;; 
+     font-family: 'Montserrat', sans-serif;
+     font-size:  2rem;
+     font-weight: normal;
+     margin-top:0;
+        width:70%;
+        margin-left:100px;
+        margin-right:100px;
+                   
+ }
+    
+    h1{
+         margin-left:100px;
+        margin-right:100px;
+         width:70%;
+       
+        
+    }
+    
+
+    .intro{
+        width:70%;
+         margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .profile-img{
+        width:45%;
+    }
   
 }
 
@@ -329,7 +421,7 @@ body {
      
      color:#ff2e63;; 
      font-family: 'Montserrat', sans-serif;
-     font-size:  1rem;
+     font-size:  2rem;
      font-weight: normal;
      margin-top:0;
         width:70%;
