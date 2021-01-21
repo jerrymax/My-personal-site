@@ -333,16 +333,14 @@ body {
      font-weight: normal;
      margin-top:0;
         width:70%;
-        margin-left:auto;
-        margin-right:auto;
-              
-        
-        
+        margin-left:100px;
+        margin-right:100px;
+                   
  }
     
     h1{
-         margin-left:auto;
-        margin-right:auto;
+         margin-left:100px;
+        margin-right:100px;
          width:70%;
        
         
@@ -354,6 +352,7 @@ body {
          margin-left:auto;
         margin-right:auto;
     }
+    
     .profile-img{
         width:45%;
     }
