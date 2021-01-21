@@ -315,9 +315,14 @@ body {
     list-style-type: none;
     padding-left: 0;
     position:absolute;
-    right:100px;
+    right:50px;
     top:50px;
 }
+    
+     .contact-message{
+     width:60%;
+     margin: 40px auto 60px; 
+ }
 
 
    }
