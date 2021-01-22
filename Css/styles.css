@@ -260,7 +260,7 @@ body {
     .skill-row{
        display:inline-flex;
         font-size:10;
-        width:70%;
+        width:75%;
         margin-left:auto;
         flex-direction: column;
         margin-right:auto;
@@ -347,7 +347,7 @@ body {
     }
     
     .profile-img{
-        width:12%;
+        width:10%;
     }
   
 }
