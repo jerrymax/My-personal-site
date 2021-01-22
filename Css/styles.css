@@ -275,25 +275,25 @@ body {
 
    .code-image{
        margin-left:0;
-       width:40%;
+       width:35%;
       
    }
 
    .comm-image{
     margin-left:0;
-    width:40%;
+    width:35%;
    
    }
 
    .attitude-image{
     margin-left:0;
-    width:40%;
+    width:35%;
    
 }
    
 .thinking-image{
     margin-left:0;
-    width:40%;
+    width:350%;
    
 }
 
@@ -347,7 +347,7 @@ body {
     }
     
     .profile-img{
-        width:15%;
+        width:18%;
     }
   
 }
