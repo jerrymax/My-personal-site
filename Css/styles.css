@@ -260,7 +260,7 @@ body {
     .skill-row{
        display:inline-flex;
         font-size:10;
-        width:80%;
+        width:70%;
         margin-left:auto;
         flex-direction: column;
         margin-right:auto;
@@ -275,25 +275,25 @@ body {
 
    .code-image{
        margin-left:0;
-       width:15%;
+       width:5%;
       
    }
 
    .comm-image{
     margin-left:0;
-    width:15%;
+    width:5%;
    
    }
 
    .attitude-image{
     margin-left:0;
-    width:15%;
+    width:5%;
    
 }
    
 .thinking-image{
     margin-left:0;
-    width:15%;
+    width:5%;
    
 }
 
@@ -347,7 +347,7 @@ body {
     }
     
     .profile-img{
-        width:35%;
+        width:45%;
     }
   
 }
