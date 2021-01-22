@@ -281,19 +281,19 @@ body {
 
    .comm-image{
     margin-left:0;
-    width:20%;
+    width:40%;
    
    }
 
    .attitude-image{
     margin-left:0;
-    width:20%;
+    width:40%;
    
 }
    
 .thinking-image{
     margin-left:0;
-    width:20%;
+    width:40%;
    
 }
 
@@ -347,7 +347,7 @@ body {
     }
     
     .profile-img{
-        width:30%;
+        width:12%;
     }
   
 }
